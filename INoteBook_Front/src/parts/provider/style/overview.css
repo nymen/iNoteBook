@@ -1,0 +1,77 @@
+.provider-page {
+  background-image: url(./../../../common/image/login_bg_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+}
+
+.ticket-info {
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.ticket-history {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+}
+
+.ticket-history>div {
+  width: 260px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  transition: all .5s ease-in-out;
+}
+
+.ticket-history>div:hover,
+.ticket-history>div.selected{
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #ffffff;
+  transform: scale(1.05);
+}
+
+.upload-tips {
+  padding: 10px 10px 10px 12px;
+  flex: 0 1 0;
+}
+
+.upload-tips>p {
+  color: #ff0000;
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.upload-info>span {
+  width: 60px;
+  text-align: right;
+  display: inline-block;
+}
+
+.ticket-upload {
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  flex: 0 1 0;
+}
+
+.upload-info>input {
+  width: 220px;
+}
+
+.ticket-submit {
+  text-align: center;
+}
+
+.ticket-submit>button {
+  width: 100px;
+}

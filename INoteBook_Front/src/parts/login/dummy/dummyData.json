@@ -1,0 +1,14 @@
+{
+  "dataList": [
+    {
+      "username": "LiYuan",
+      "password": "123",
+      "role": "customer"
+    },
+    {
+      "username": "MaYun",
+      "password": "123",
+      "role": "provider"
+    }
+  ]
+}
