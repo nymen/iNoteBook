@@ -18,6 +18,9 @@
         </div>
         <div class="mar-5 pad-5 upload-info ticket-fee">
           <span class="mr-5">发票金额</span>
+          <span class="mr-5">发票金额</span>
+          <span class="mr-5">发票金额</span>
+          <span class="mr-5">发票金额</span>
           <input type="text" class="input-theme-2">
         </div>
         <div class="mar-5 pad-5 upload-info ticket-submit">
